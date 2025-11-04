@@ -1,0 +1,4 @@
+# uploads/.htaccess
+<FilesMatch "\.(php|js|html)$">
+  Deny from all
+</FilesMatch>
